@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "noEmitOnError": true, // 错误情况下不编译
+    "noEmit": false
+  },
+  "extends": ["./tsconfig.json"],
+  "include": ["cloudBase/cloudfunctions/**/index.ts"]
+}

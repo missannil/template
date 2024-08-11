@@ -1,0 +1,9 @@
+<view class="size-full flex flex-col flex-center">
+	<view class="m-30">欢迎使用 annil 开发模板介绍</view>
+	<view class="m-30">请npm i 并修改mobx文件后重新构建npm已确保使用最新的包</view>
+	<view class="m-30">npm run dev 开启tailwindcss3 即时编译和tsc --watch</view>
+	<view class="m-30">使用 dprint作为格式化工具,请确定已安装</view>
+	<view class="m-30">eslint当前版本为8.57.0</view>
+	<view class="m-30">使用了commitlint和husky,husky会在commit之前运行npm run check 和commitlint,在遇到eslint错误(最大警告为0),有需要格式化的文件,或提交错误的情况下都会中断commit</view>
+	<view class="m-30">rollup针对云函数打包</view>
+</view>

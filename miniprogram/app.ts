@@ -1,0 +1,6 @@
+import "./inject";
+
+App({
+  onLaunch() {
+  },
+});
