@@ -80,8 +80,24 @@ page,view,image,i,icon,[class],text,::before,::after {
   height: 100%
 }
 
+.h-full {
+  height: 100%
+}
+
+.w-full {
+  width: 100%
+}
+
 .flex-col {
   flex-direction: column
+}
+
+.primary {
+  color: #16a34a
+}
+
+.primary-dark {
+  color: #15803d
 }
 
 .flex-center {

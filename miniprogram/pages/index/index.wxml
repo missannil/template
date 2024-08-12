@@ -1,12 +1,15 @@
-<view class="size-full flex flex-col flex-center">
-	<view class="m-20">欢迎使用 基于annil插件的 开发模板</view>
-	<view class="m-20">1. 请npm i 并修改mobx文件后构建npm</view>
-	<view class="m-20">2. 模板使用 dprint作为格式化工具,需要安装和vscode插件</view>
-	<view class="m-20">3. eslint当前版本为8.57.0,需要安装vscode插件</view>
-	<view
-		class="m-20"
-	>4. 使用了commitlint和husky,husky会在commit之前运行npm run check 和commitlint,在遇到eslint错误(默认最大警告为0),有需要格式化的文件,或提交信息不符合commitlint的情况下都会中断commit</view>
-	<view class="m-20">5. rollup是针对云函数打包的</view>
-	<view class="m-20">5. 使用了tailwindcss3</view>
-	<view class="m-20">6. 了解上面后,启动: npm run dev 开启tailwindcss3 即时编译和tsc --watch(监控类型错误),就可以开始了</view>
-</view>
+<page>
+	<view class="size-full flex flex-col flex-center">
+		<view class="m-20">欢迎使用 基于annil插件的 开发模板</view>
+		<view class="m-20">1. 请npm i 并修改mobx文件后构建npm</view>
+		<view class="m-20">2. 模板使用 dprint作为格式化工具,需要安装和vscode插件</view>
+		<view class="m-20">3. eslint当前版本为8.57.0,需要安装vscode插件</view>
+		<view
+			class="m-20"
+		>4. 使用了commitlint和husky,husky会在commit之前运行npm run check 和commitlint,在遇到eslint错误(默认最大警告为0),有需要格式化的文件,或提交信息不符合commitlint的情况下都会中断commit</view>
+		<view class="m-20">5. rollup是针对云函数打包的</view>
+		<view class="m-20">6. 使用了tailwindcss3</view>
+		<view class="m-20">7. 使用了color模块,自定义主题颜色,tailwind配置了颜色变量,是通过page组件来实现的。</view>
+		<view class="m-20">8. 了解上面后,启动: npm run dev 开启tailwindcss3 即时编译和tsc --watch(监控类型错误),就可以开始了</view>
+	</view>
+</page>

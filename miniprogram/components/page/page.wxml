@@ -1,0 +1,6 @@
+<view
+	class="h-full w-full"
+	style="{{colorVariables}}"
+>
+	<slot></slot>
+</view>

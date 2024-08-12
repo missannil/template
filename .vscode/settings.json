@@ -13,5 +13,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit", // eslint插件的功能.保存时自动处理eslint错误
     "source.organizeImports": "explicit" // ts的内置功能.保存时自动处理import (删除未使用,整合同路径导入,排序)
-  }
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }

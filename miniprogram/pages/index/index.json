@@ -1,4 +1,5 @@
 {
   "usingComponents": {
+    "page": "../../components/page/page"
   }
 }
