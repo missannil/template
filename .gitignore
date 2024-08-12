@@ -5,7 +5,7 @@ node_modules
 **/*.map
 !rollup.config.js
 !commitlint.config.js
-/miniprogram/miniprogram_npm/**/*
+!/miniprogram/miniprogram_npm/annil/*
 !tailwind.config.js
 !postcss.config.js
 !.prettierrc.js

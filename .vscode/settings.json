@@ -1,13 +1,17 @@
 {
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
   "editor.defaultFormatter": "dprint.dprint",
   "[jsonc]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "dprint.dprint"
   },
-  // or specify per language, for example
   "[typescript]": {
     "editor.defaultFormatter": "dprint.dprint",
     "editor.formatOnSave": true
   },
-  "typescript.tsdk": "node_modules\\typescript\\lib"
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit", // eslint插件的功能.保存时自动处理eslint错误
+    "source.organizeImports": "explicit" // ts的内置功能.保存时自动处理import (删除未使用,整合同路径导入,排序)
+  }
 }
