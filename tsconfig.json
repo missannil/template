@@ -21,7 +21,7 @@
       "hry-types",
       "mobx",
       "annil",
-      "miniprogram-api-typings"
+      "hry-miniprogram-api-typings"
     ]
   },
   "include": [
